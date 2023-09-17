@@ -1,4 +1,7 @@
 # Namaste-React 
 Namaste React by Akshay Saini 
 <br>
-Demo
+Author - Akshay Saini 
+
+Parcel is Beast ... parcel is amazing.....
+ 
