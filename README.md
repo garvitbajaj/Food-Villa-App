@@ -1,2 +1,4 @@
-# Food-Villa-App
-This is the clone of food ordering App
+# Namaste-React 
+Namaste React by Akshay Saini 
+<br>
+Demo
