@@ -1,10 +1,32 @@
-// using js to manipulate the dom
-// how do you create html element in javascript 
 
-const heading = document.createElement("h1");
 
-heading.innerHTML = "Namaste Everyone from Javascript";
+const heading = React.createElement("h1",
+{
+    id:"heading",
+    style : {
+       background : "red",
+    },
+    className :"title"
+},
+"Hello Everyone"
+);
 
-const root = document.getElementById("root");
+const para = React.createElement("p",
+{
+    id:"para",
+},
+"Namaste React"
+);
 
-root.appendChild(heading);
+const container = React.createElement("div",
+{
+    id:"container"
+},
+[heading,para]
+);
+
+//using createRoot to
+const root = ReactDOM.createRoot(document.getElementById("root"));
+//using Root render react element  
+root.render(container);
+
